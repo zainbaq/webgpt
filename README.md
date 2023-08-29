@@ -15,7 +15,7 @@ Run the app in 'Research' mode with the -r flag. This will tell the app to resea
 python ./app/run.py -u <url> -r
 ```
 
-If you have already done the step above once and the data/processed directory has 2 files. You can omit the -r flag to skip the research.
+If you have already done the step above once and the data/processed directory has 2 files, you can omit the -r flag to skip the research phase.
 ```
 python ./app/run.py -u <url>
 ```
