@@ -2,7 +2,14 @@
 
 WebGPT is a simple command line assistant that can converse and give you information found on an (non-Javascript) website! It is still in development, so there's no conversational memory, but you can ask it questions about content found at the domain provided.
 
+*REQUIRES PYTHON*
+
 ## Quickstart
+Clone the repository
+```
+git clone https://github.com/zainbaq/webgpt.git
+cd webgpt
+```
 Create a virtual environment and install packages from requirements.txt
 ```
 python -m venv <your-virtual-env>
