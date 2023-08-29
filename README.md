@@ -16,6 +16,13 @@ python -m venv <your-virtual-env>
 source ./bin/activate
 pip install -r requirements.txt
 ```
+Create a file called '.env' in the folder and add your OpenAI API key. Make sure you don't post your code with your API Key anywhere.
+```
+touch ./.env
+
+# add this line to the file
+OPENAI_KEY=<your-openai-api-key-here>
+```
 
 Run the app in 'Research' mode with the -r flag. This will tell the app to research the url provided and extract all textual information.
 ```
