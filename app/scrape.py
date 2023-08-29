@@ -95,6 +95,10 @@ def crawl(url):
 
     # Create a set to store the URLs that have already been seen (no duplicates)
     seen = set([url])
+    
+    # Create data directory
+    if not os.path.exists("data/"):
+         os.mkdir("data/")
 
     # Create a directory to store the text files
     if not os.path.exists("data/text/"):
