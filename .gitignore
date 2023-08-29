@@ -1,0 +1,13 @@
+.env
+
+data/processed/*
+data/text/*
+
+# remove venv directories
+bin/
+etc/
+include/
+share/
+lib/
+
+pyvenv.cfg
